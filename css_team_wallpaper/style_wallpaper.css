@@ -1,0 +1,208 @@
+body{
+    background-color: black;
+}
+
+.obtus_download a{
+    text-decoration: none;
+}
+
+ a:hover{
+    color: white !important;
+    text-decoration: none;
+}
+
+.obtus_main {
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.obtus_content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 15px 15px 20px;
+    width: 100%;
+    align-items: flex-end;
+    
+}
+
+.obtus_content a {
+    color: white;
+    text-decoration: none;
+}
+.obtus_content a:hover {
+    text-decoration: underline;
+}
+
+.obtus_name {
+    flex: 0 0 calc( 100% - 140px );
+}
+
+.obtus_title {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    font-family: 'OPHTUS-BOLD';
+    margin-bottom: 0;
+}
+
+.obtus_tagline {
+    font-size: 12px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 0;
+    font-family: 'OPHTUS-regular';
+}
+
+
+.obtus_download {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 17px;
+    position: relative;
+}
+
+
+.obtus_trigger {
+    width: 127px;
+    border-radius: 30px;
+    border: 2px solid #525252;
+    background-color: #00000082;
+    font-size: 13px;
+    line-height: 13px;
+    color: white;
+    padding: 10px 22px 9px 22px;
+    font-weight: bold;
+    font-family: 'OPHTUS-BOLD';
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.obtus_container {
+    display: none;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    top: 42px;
+    left: 15px;
+    padding: 10px;
+    border: 2px solid #525252;
+    border-radius: 13px;
+    background-color: #00000090;
+    z-index: 5;
+    font-family: 'OPHTUS-regular';
+}
+
+
+/* mobile */
+
+.obtus_mw {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    
+}
+
+.obtus_mw_content {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 15px 15px 20px;
+    width: 100%;
+    align-items: flex-end;
+    height: 760px;
+}
+
+.obtus_mw_content_in {
+    position: relative;
+    margin-left: 35%;
+    
+}
+
+
+.obtus_mw_name {
+    flex: 0 0 100%;
+}
+
+.obtus_mw_title {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    font-family: 'OPHTUS-BOLD';
+    margin-bottom: 0;
+}
+
+.obtus_mw_tagline {
+    font-size: 12px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 12px !important;
+    font-family: 'OPHTUS-regular';
+}
+
+.obtus_mw_download {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 17px;
+    position: relative;
+}
+
+.obtus_mw_download_trigger {
+    width: 127px;
+    border-radius: 30px;
+    border: 2px solid #525252;
+    background-color: #00000082;
+    font-size: 13px;
+    line-height: 13px;
+    color: white;
+    padding: 10px 22px 9px 22px;
+    font-weight: bold;
+    font-family: 'OPHTUS-BOLD';
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nazal {
+    font-family: 'NasalizationRg-Regular'
+}
+
+div.nazal {
+    font-family: 'NasalizationRg-Regular';
+    font-size: 4.3vw;
+}
+
+div.font2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.2vw;
+    font-weight: 900;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.footer-block2{
+    margin: 2%;
+}
+
+hr {
+    border: 1.5px solid rgb(255, 241, 241);
+}
+
+.border-right {
+    border-right: 1px solid white;
+}

@@ -1,0 +1,269 @@
+@keyframes youtube {
+    0% {
+        opacity: 0;
+    }
+    50% {
+       opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+  @keyframes facebook {
+    0% {
+        opacity: 1;
+    }
+    50% {
+       opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+body{
+    background-color: black;
+    font-family: 'Ophtus', 'Prompt';
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+.img_obtus{
+    height: 300px;
+    margin-top: 57px;
+    margin-bottom: 101;
+}
+
+.container{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vedio {
+    margin-top: 50px;
+    height: 338px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vedio video{
+    max-width: 100%;
+    width: 100%;
+    height: 302.74px;
+}
+
+.frame_gramers{
+    width: 100%;
+    position:absolute;
+    margin-top: -360px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.frame_gramers .logo img{
+    width: 338px;
+    height: 338px;
+}
+
+.frame_gramers .conten{
+    margin-top: 50px;
+    width: 350px;
+    height: 338px;
+    margin-right: 10%;
+}
+
+.frame_gramers .conten .link{
+    padding: 18px 15px 12px 15px;
+    background: transparent linear-gradient(90deg, #0055FF 0%, #5626FF 63%, #9A00FF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    font-family: 'OPHTUS-METAMORPHOSIS';
+    font-size: 28px;
+    line-height: 27px;
+    display: inline-block;
+    margin-bottom: 19px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.frame_gramers .conten .link i{
+    visibility:hidden;
+}
+
+.frame_gramers .conten .link:hover > i{
+    visibility:visible;
+}
+
+.frame_gramers .conten a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.frame_gramers .conten .text{
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+.frame_gramers .conten .type{
+    margin-bottom: 14px;
+}
+
+.frame_gramers .conten .type span{
+    color: white;
+}
+
+
+.youtube{
+    color: white;
+    animation: youtube 5s infinite;
+}
+
+.facebook {
+    position:absolute;
+    color: white;
+    animation: facebook 5s infinite;
+    margin-left: -10%;
+
+}
+
+/* -- Esport leyer -- */
+.img_top_esport{
+    width: 100%;
+}
+
+.img_top_esport img{
+    width: 90%;
+    margin-left: 7%;
+}
+
+.esports{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.item_people:hover{
+    transform: scale(1.05);
+}
+.item_people{
+    width: 100%;
+    transition: all 0.1s linear;
+}
+
+.item_people:hover > a > .oph_ts_content{
+    background: transparent linear-gradient(90deg, #0055FF 0%, #5626FF 63%, #9A00FF 100%) 0% 0% no-repeat padding-box;
+}
+
+
+.item_people a {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+}
+
+.img_esport{
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+}
+
+
+.oph_ts_content {
+    height: 68px;
+    padding-left: 70px;
+    width: 80%;
+    position: absolute;
+    left: 40px;
+    border-top-right-radius: 59px;
+    border-bottom-right-radius: 59px;
+    background: transparent linear-gradient(270deg, #303030 0%, #101010 100%) 0% 0% no-repeat padding-box;
+    color: #EEE;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    z-index: 1;
+}
+
+.oph_ts_title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'OPHTUS-BOLD';
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.oph_ts_text {
+    font-size: 14px;
+    margin: 0;
+}
+
+.slick-prev, .slick-next {
+    background: url(../img_team_wallpaper/arrows.png);
+    width: 22px;
+    height: 33px;
+    position: absolute;
+    top: 30px;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: 100;
+}
+
+.slick-prev {
+    background-position: 0px;
+    left: 0px;
+}
+
+.slick-next {
+    background-position: -22px;
+    right: 0px;
+}
+
+/* -- END Esport leyer -- */
+
+/* -- Youtupe & STM --*/
+.youtube_stm{
+    width: 100%;
+    position: relative;
+    display: flex;
+    overflow-x: hidden;  
+    margin-bottom: 10px; 
+    overflow: hidden;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.footer-block2{
+    margin: 2%;
+}
+
+hr {
+    border: 1.5px solid rgb(255, 241, 241);
+}
+
+.border-right {
+    border-right: 1px solid white;
+}

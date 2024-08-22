@@ -1,0 +1,425 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทำไมต้อง Ophtus – แว่นกันแสงคอม แว่นตัดแสงสีฟ้า</title>
+    <link rel = "icon" href = "pic/ophtus-icon.png" type = "image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style-about.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--ไม่ได้เดี๋ยวลองเปลี่ยนเป็น fixed-top-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav" style="background-color: black;">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html"><img src="https://ophtus.com/wp-content/uploads/2017/11/ophtus-logo.png" alt="" style="width: 60%;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 text-white"
+                            href="index.html">หน้าแรก</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 text-white" href="about.html">ทำไมต้อง
+                            OPHTUS</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link px-lg-3 py-3 py-lg-4 text-white" href="our-glasses.html">สินค้าทั้งหมด</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-lg-3 py-3 py-lg-4 text-white" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">ชุมชน</a>
+                        <ul class="dropdown-menu dropdown-menu-dark bg-black" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li class="nav-item" ><a class="dropdown-item nav-link px-lg-3 py-3 py-lg-4 text-white " href="team_obtus.html">ทีม OPHTUS</a></li>
+                            <li class="nav-item" ><a class="dropdown-item nav-link px-lg-3 py-3 py-lg-4 text-white" href="wallpaper.html">วอลเปเปอร์</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 text-white"href="contact.html">ติดต่อเรา</a></li>
+                </ul>
+                <!--ทดลอง-->
+                <center>
+                        <button class="button button5" type="button" 
+                                id="dropdownMenuButton" 
+                                data-toggle="dropdown"
+                                target="_blank"
+                                style="background: transparent; border:none; color: white;">TH
+                                <img src="flag/thai-icon.png" >
+                        </button>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <div class="main">
+                                SELECT YOUR LOCATION
+                                <div class="form-group has-feedback has-search">
+                                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                  <input type="text" class="form-control" placeholder="Search for a location" style="background-color: rgb(0, 0, 0); font-size: 14px;">
+                                </div>
+                              </div>
+                            <li class="dropdown-item">
+                                <img src="flag/thailand.png"
+                                width="20" height="20">&nbsp;THAILAND 
+                                <p style="margin-left: auto; float: right; color: gray;">TH</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/vietnam.png" 
+                                width="20" height="20">&nbsp;VIETNAM
+                            <p style="margin-left: auto; float: right; color: gray;">VN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/usa.png" 
+                                width="20" height="20">&nbsp;USA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/brazil.png"
+                                width="20" height="20">&nbsp;BRAZIL
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/cambodia.png"
+                                width="20" height="20">&nbsp;CAMBODIA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                                <li class="dropdown-item">
+                            <img src="flag/china.png"
+                                width="20" height="20">&nbsp;CHINESE
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/france.png"
+                                width="20" height="20">&nbsp;FRANCE
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/germany.png"
+                                width="20" height="20">&nbsp;GERMANY
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/hongkong.png"
+                                width="20" height="20">&nbsp;HONG KONG
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/india.png"
+                                width="20" height="20">&nbsp;INDIA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/indonesia.png"
+                                width="20" height="20">&nbsp;INDONESIA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/italy.png"
+                                width="20" height="20">&nbsp;ITALY
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/japan.png"
+                                width="20" height="20">&nbsp;JAPAN
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/laos.png"
+                                width="20" height="20">&nbsp;LAOS
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/malaysia.png"
+                                width="20" height="20">&nbsp;MALAYSIA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/myanmar.png"
+                                width="20" height="20">&nbsp;MYANMAR
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/philippines.png"
+                                width="20" height="20">&nbsp;PHILIPPINES
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/portugal.png"
+                                width="20" height="20">&nbsp;PORTUGAL
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/russia.png"
+                                width="20" height="20">&nbsp;RUSSIA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/singapore.png"
+                                width="20" height="20">&nbsp;SINGAPORE
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/southkorea.png"
+                                width="20" height="20">&nbsp;SOUTH KOREA
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/spain.png"
+                                width="20" height="20">&nbsp;SPAIN
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="flag/taiwan.png"
+                                width="20" height="20">&nbsp;TAIWAN
+                                <p style="margin-left: auto; float: right; color: gray;">EN</p>
+                            </li>
+                        </ul>
+                    </div>
+                </center>
+                <!--ทดลอง-->
+            </div>
+    </nav>
+ 
+
+<div class="container">
+    <!--banner-->
+    <div class="banner">
+        <h1 class="center">เลนส์อัจฉริยะ สกัดกั้นแสงสีฟ้า <br>อย่างตรงจุด</h1>
+        <img class="logo" src="about-pic/retinax-logo-colored-400x167.png">
+    </div>
+
+
+    <!--lens-->
+    <div class="len">
+        <div class="lens">
+            <img src="about-pic/RetinaX.png"/>
+            <img src="about-pic/Retina_clear-1.png" style="width: 400px;"/>
+        </div>
+        <div class="lens">
+            <img src="about-pic/RetinaX-Amber.png " />
+            <img src="about-pic/Retina_amber-1.png" style="width: 400px;"/>
+        </div>
+    </div>
+
+
+    <!--info-->
+        <div class="info">
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;">original ophtus lens</p>
+                <p style="text-indent: 2.5em;color: grey; font-size: 24px;">เลนส์กรองแสงต้นฉบับของออปตัส</p>
+            </div>
+            <div class="img-info">
+                <img src="about-pic/full.png">
+            </div>
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;">latest amber lens technology</p>
+                <p style="text-indent: 2.5em;color: grey; font-size: 24px;">เลนส์กรองแสงแอมเบอร์ รุ่นใหม่</p>
+            </div>
+        </div>
+
+
+        <div class="info">
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;">3x higher intensity blue light filter than normal lens</p>
+                <p style="text-indent: 2.5em;color: grey; font-size: 24px;">กรองแสงสีฟ้าในช่วงที่มีความอันตรายสูงสุด ได้มากกว่าเลนส์ทั่วไป 3 เท่า</p>
+            </div>
+            <div class="img-info">
+                <img src="about-pic/full.png">
+            </div>
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;">6x higher intensity blue light filter than normal lens</p>
+                <p style="text-indent: 2.5em;color: grey; font-size: 24px;">กรองแสงสีฟ้าในช่วงที่มีความอันตรายสูงสุด ได้มากกว่าเลนส์ทั่วไป 6 เท่า</p>
+            </div>
+        </div>
+
+
+        <div class="info">
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;"></p>
+                <br><br>
+                <img src="about-pic/dash.png">
+                <p style="text-indent: 2.5em;"></p>
+            </div>
+            <div class="img-info">
+                <img src="about-pic/half.png">
+            </div>
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;">sharpness and low light correction</p>
+                <p style="text-indent: 2.5em; color: grey; font-size: 24px;">ปรับความสว่างของภาพหน้าจอได้อย่างพอเหมาะ</p>
+            </div>
+        </div>
+
+
+        <div class="info">
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;"></p>
+                <br><br><br>
+                <img src="about-pic/dash.png">
+                <p style="text-indent: 2.5em;"></p>
+            </div>
+            <div class="img-info">
+                <img src="about-pic/half.png">
+            </div>
+            <div class="box-text"style="width: 600px;">
+                <p style="text-indent: 2.5em;">depth perception enhancement for high resolution games</p>
+                <p style="text-indent: 2.5em;color: grey; font-size: 24px;">ช่วยปรับความคมชัดในเกมที่มีความละเอียดสูง</p>
+            </div>
+        </div>
+
+        
+        <div class="info">
+            <div class="box-text"style="width: 600px;">
+                <p style="text-indent: 2.5em;">enhanced optical comfort</p>
+                <p style="text-indent: 2.5em;color: grey; font-size: 24px;">เพิ่มความสบายตาขณะสวมใส่</p>
+            </div>
+            <div class="img-info">
+                <img src="about-pic/full.png">
+            </div>
+            <div class="box-text" style="width: 600px;">
+                <p style="text-indent: 2.5em;">enhanced optical comfort when targeting objects on screen</p>
+                <p style="text-indent: 2.5em; color: grey; font-size: 24px;">เลนส์สีเหลืองศักยภาพสูง</p>
+            </div>
+        </div>
+        <div class="info">
+        </div>
+    <!--infoเกี่ยวกับเลนส์-รูปภาพ-->
+    <div class="all-card">
+        <div class="content">
+            <img src="about-pic/eye-protection.png" style="width: 140px;">
+            <p style="font-size: 24px;">eye peotection</p>
+            <p style="color: grey; font-size: 24px;">ดูแลสายตา</p>
+        </div> 
+        <div class="content">
+            <img src="about-pic/blue-light-filter.png" style="width: 145px;">
+            <p style="font-size: 24px;">blue light filter</p>
+            <p style="color: grey; font-size: 24px;">กรองแสงสีฟ้า</p>
+        </div>
+        <div class="content">
+            <img src="about-pic/blue-light-protection-from-all-screen-types.png" style="width: 145px;">
+            <p style="font-size: 24px;">blue light protection from all screen types</p>
+            <p style="color: grey; font-size: 24px;">ป้องกันแสงจากหน้าจอ
+                ได้จริงทุกประเภท</p>
+        </div> 
+        <div class="content">
+            <img src="about-pic/multi-coating.png" style="width: 145px;">
+            <p style="font-size: 24px;">multi-coating</p>
+            <p style="color: grey; font-size: 24px;">เคลือบมัลติโค้ด</p>
+        </div> 
+    </div>
+
+
+    <div class="all-card">
+        <div class="content">
+            <img src="about-pic/dirty-free-surface.png" style="width: 145px;">
+            <p style="font-size: 24px;">dirt-free surface</p>
+            <p style="color: grey; font-size: 24px;">ผิวเลนส์ลื่น ฝุ่นไม่เกาะ</p>
+        </div> 
+        <div class="content">
+            <img src="about-pic/ati-fogging.png" style="width: 145px;">
+            <p style="font-size: 24px;">anti-fogging</p>
+            <p style="color: grey; font-size: 24px;">กันฝ้า หมอก และไอน้ำ</p>
+        </div>
+        <div class="content">
+            <img src="about-pic/scratch-free-surface.png" style="width: 145px;">
+            <p style="font-size:24px;">scratch-free surface</p>
+            <p style="color: grey;">ป้องกันรอยขีดข่วน</p>
+        </div> 
+        <div class="content">
+            <img src="about-pic/protection-against-dropping.png" style="width: 145px;">
+            <p style="font-size: 24px;">protection against dropping</p>
+            <p style="color: grey; font-size: 24px;">เลนส์คุณภาพสูง ตกไม่แตก</p>
+        </div> 
+    </div>
+
+    
+</div>
+     
+    <!--ซื้อกับแอดมินได้ทันที-->
+    <div class="buy_admin">
+        <div class="info_chat">
+            <h1 style="font-size: 50px;">ซื้อกับแอดมินได้ทันที<br>พร้อมข้อมูลประกอบเพียบ!</h1>
+            <p style="font-size: 24px; font-weight: lighter;">มีแอดมินตอบคำถาม พร้อมรับออเดอร์สั่งซื้อ<br>ทุกวัน 7 โมงเช้า – ตี 1</p>
+                <a href="contact.html" class="transparent_btn" style="font-size: 24px;">CHAT NOW!</a>  
+        </div>
+    </div>
+
+    <!--คำถามที่พบบ่อย-->
+    <div class="container">
+        <div style="width: 1000px; margin-top: 150px; margin-bottom: 120px;">
+            <h1 style="font-size: 50px;">คำถามที่พบบ่อย</h1>
+            <p style="font-size: 28px; font-weight: lighter;">Q: เลนส์กรองทั่วไป ต่างจากเลนส์ที่มีเทคโนโลยี RetinaX อย่างไร <br>
+                A: แว่นทุกรุ่นของ Ophtus ผลิตจากเทคโนโลยีเลนส์ RetinaX ช่วยกรองแสงได้อย่างเหมาะสม
+                เพราะตัวเลนส์อัจฉริยะจะช่วยปกป้องเต็มกำลังในช่วงคลื่นความถี่ที่เป็นอันตราย พร้อมละเว้นช่วง
+                คลื่นรังสี 455 nm ซึ่งเป็นแสงสีฟ้าที่มีประโยชน์ ช่วยในการมองเห็นภาพ ผลลัพธ์ที่ได้คือการถนอมสายตาอย่างแท้จริง!</p>
+            <p style="font-size: 24px; font-weight: lighter;">Q: ตัดค่าสายตาใช้เวลากี่วัน<br>
+                A: ใช้เวลา 7-10 วัน เพื่อพร้อมส่งให้ถึงบ้านคุณ เรามอบหมายให้เฉพาะผู้เชี่ยวชาญเป็นผู้ดำเนินการเท่านั้น</p>
+            <p style="font-size: 24px; font-weight: lighter;">Q: หากต้องการให้ Ophtus ช่วยประสานงานกับศูนย์จักษุใกล้บ้าน จะมีค่าใช้จ่ายเพิ่มเติมหรือไม่<br>
+                A: ฟรี ไม่มีค่าใช้จ่าย ทางเรายินดีประสานงาน และให้ข้อมูลสถานที่ตรวจวัดสายตาใกล้บ้านคุณ พร้อมแจ้งส่วนลด โปรโมชั่นสำหรับสาขาที่เข้าร่วม</p>
+            <p style="font-size: 24px; font-weight: lighter;">Q: ส่งสินค้าถึงบ้านด้วย DHL มีค่าใช้จ่ายเพิ่มเติมหรือไม่<br>
+                A: ส่งด่วน DHL พร้อมบริการโทรหาก่อนส่งของถึงบ้าน ฟรี! ไม่มีค่าใช้จ่าย สำหรับทุกท่านที่โอนเงินชำระค่าสินค้า(หากเลือกชำระแบบเก็บเงินปลายทาง มีค่าธรรมเนียม 100 บาท)</p>
+        </div>
+        
+    </div>
+
+    <!--ตัดค่าสายตาได้โดยช่าง-->
+    <div class="sight">
+        <div class="info_chat">
+            <h1 style="font-size: 50px;">ตัดค่าสายตาได้<br>โดยช่างมีประสบการณ์กว่า 10 ปี</h1>
+            <p style="font-size: 24px; font-weight: lighter;">เราตัดได้ตามค่าสายตาของแต่ละบุคคล ละเอียดแม่นยำทุกองศา<br>ตัดโดยช่างมีประสบการณ์นานนับ 10 ปี</p>
+            <p style="font-size: 24px; font-weight: lighter;">คิดราคาตามจริงแยกข้าง สั้น-ยาวไม่เกิน 300 จ่ายเพิ่มเพียง 300 บาท (รวมสองข้าง)</p>
+                <a href="eyesight.html" class="transparent_btn" style="font-size: 24px;">ตารางค่าสายตา</a>  
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="pic/ophtus_built-for-gamers.png" alt="" width="90%"><br><br>
+                    <p>บริษัท อินคิวบ์ จำกัด
+                        ห้องเลขที่ 301 ชั้น 3 อาคารเดอะไลท์เฮ้าส์ เลขที่ 8/299,8/300 ถนนเจริญนคร แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร 10600</p>
+                        <br>
+                    <p>© 2017 Ophtus All Rights Reserved</p>
+                </div>
+                <div class="col-md-3 footer-block2">
+                    <a href="index.html">หน้าหลัก</a><br>
+                    <a href="about.html">ทำไมต้อง Ophtus</a><br>
+                    <a href="our-glasses.html">สินค้าทั้งหมด</a><br>
+                    <a href="team_obtus.html">ทีม OPHTUS</a><br>
+                    <a href="contact.html">ติดต่อเรา</a><br>
+                </div>
+                <div class="col-md-3">
+                    <p>Stay Connected:</p>
+                    <div class="button-contact">
+                        <a href="https://www.facebook.com/ophtus/" target="_blank"><img src="pic/facebook.png" alt="" width="50vw"> &nbsp;</a>
+                        <a href="http://line.me/ti/p/~@ophtus" target="_blank"><img src="pic/line.png" alt="" width="50vw"> &nbsp;</a>
+                        <a href="https://www.instagram.com/ophtus/" target="_blank"><img src="pic/instragram.png" alt="" width="50vw"></a>
+                    </div>
+                    <br><br>
+                    <p>อีเมลติดต่อ แอดมิน และสอบถามทั่วไป:
+                        support@ophtus.com</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </footer>
+     
+</body>
+<script>
+    $(function(){
+    $('.selectpicker').selectpicker();
+});
+</script>
+</html>
